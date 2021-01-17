@@ -120,7 +120,7 @@ public static String  WhoIsWin(){
         else if(playerPosition2.containsAll(l)){
             System.out.println("Player 2 has won");
             System.exit(0);}
-        else if(playerPosition1.size() + playerPosition2.size() ==0){
+        else if(playerPosition1.size() + playerPosition2.size() ==9){
             System.out.println("Draw!!");
             System.exit(0);}
         return "";
